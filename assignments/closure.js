@@ -2,18 +2,18 @@
 // Write a simple closure of your own creation.  Keep it simple!
 function name(first,last){
   const fullName = `${first} ${last}`;
-  console.log(`My full name is: ${fullName}`)
+  console.log(`My full name is: ${fullName}`);
 
   function time(time){
     const currentTime = time;
-    console.log(`The current time is ${time}`)
-    
+    console.log(`The current time is ${time}`);
+
     function together(){
-      console.log(`My name is ${fullName} and the time is ${time}`)
+      console.log(`My name is ${fullName} and the time is ${time}`);
     }
-    together()
+    together();
   }
-  time('2:12PM')
+  time('2:12PM');
 }
 name('Terrell', 'Tullis');
 
